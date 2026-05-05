@@ -11,6 +11,7 @@
 
 # --- Environment & Security ---
 .env
+.env.example
 .venv
 env/
 venv/
