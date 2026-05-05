@@ -1,0 +1,38 @@
+# --- Data Files ---
+*.csv
+*.zip
+*.7z
+*.rar
+*.sql.gz
+
+# Allow the final analytics CSV and README images if you want them on GitHub
+!dashboard_preview.png
+!data/processed/retail_analytics_final.csv
+
+# --- Environment & Security ---
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Tableau & Visualization ---
+*.twb
+*.twbx
+*.hyper
+*.log
+*.tmp
+*.txt
+Performance Recording/
